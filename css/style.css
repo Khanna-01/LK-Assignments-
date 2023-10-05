@@ -11,3 +11,45 @@ h2{
     color : #fc0;
     font-size :2rem;
 }
+
+header{
+    background-color: hsl(170, 8%, 15%);
+}
+main{
+    float:left;
+    width : 65vw;
+    height : 60vh;
+    background-color: hsl(70, 93%, 53%);
+}
+aside{ 
+    float: right;
+    height : 60vh;
+    width : 25vw;
+    background-color: hsla(149, 75%, 60%, 0.622);
+
+}
+footer{
+ clear : both;
+ background-color: hsl(245, 94%, 49%);
+}
+
+
+.Structural
+{
+    padding : 10px;
+    margin : 10px;
+    border : 2px solid black;
+
+}
+#para1{
+    color :rgb(107,7,49);
+}
+#para2{
+    color :rgb(141,16,208);
+}
+a:hover{
+    color : #09c;
+}
+footer p{
+    font-size : .75em;
+}
