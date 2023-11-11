@@ -7,6 +7,53 @@ body
     font : normal normal normal 12px/1.5 Verdana, Arial,Helvetica,sans-serif;
    
 }
+  aside ul{
+    list-style-type: upper-roman;
+}
+
+  
+aside ul{
+    font-size: small;
+}
+aside li ,aside a{
+     color : rgba(244, 86, 7, 0.8);
+    line-height : 2em;
+
+} 
+
+h1{
+    color: blueviolet ;
+    font-size: 30px;
+
+    
+}
+
+nav ul  li{ 
+   
+display: inline;
+list-style-type: none;
+padding:4px;
+}
+nav ul  li  a{
+border:2px solid indigo;
+
+color:indigo;
+background-color: cornsilk ;
+text-decoration: none;
+padding: 4px;
+} nav li a:hover{
+    border-color: cornsilk;
+    color:cornsilk;
+    background-color: indigo;
+}
+form{
+    border-width: 5px;
+    border-style: dashed;
+    border-color:rgb(9, 9, 9);
+    padding:5px;
+
+
+}
 h2{
     color : #fc0;
     font-size :2rem;
@@ -18,12 +65,60 @@ header{
 main{
     float:left;
     width : 65vw;
-    height : 60vh;
+    
     background-color: hsl(70, 93%, 53%);
+}
+input[type="text"]{
+width: 50%;
+display: block;
+height:2em;
+}
+input[type="email"]{
+    width: 50%;
+    display: block;
+    height:2em;
+
+}
+input[ type="submit"]{
+    width: 50%;
+display: block;
+height:2em;
+}
+input[type=select]{
+    width: 50%;
+display: block;
+height:2em;
+}
+input[type="option"]{
+    width: 50%;
+display: block;
+height:2em;
+}
+input[type="radio"]
+{
+    height:2em;
+    width: 2em;
+}
+input[type="checkbox"]
+{  height:2em;
+    width: 2em;
+
+}
+textarea{
+    width:50%;
+    display: block;
+}
+fieldset{
+   border:none; 
+}
+select , option , label , legend , input[type=submit]{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps ;
 }
 aside{ 
     float: right;
-    height : 60vh;
+  
     width : 25vw;
     background-color: hsla(149, 75%, 60%, 0.622);
 
@@ -34,11 +129,11 @@ footer{
 }
 
 
-.Structural
+.structural
 {
     padding : 10px;
     margin : 10px;
-    border : 2px solid black;
+    border : 3px solid black;
 
 }
 #para1{
@@ -47,8 +142,8 @@ footer{
 #para2{
     color :rgb(141,16,208);
 }
-a:hover{
-    color : #09c;
+ aside  li a:hover{
+    color : rgb(255, 255, 255);
 }
 footer p{
     font-size : .75em;
